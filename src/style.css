@@ -88,7 +88,7 @@ footer {
 }
 
 .generating {
-    animation: blink-animation is steps(5, start) infinite;
+    animation: blink-animation 1s steps(5, start) infinite;
 }
 
 @keyframes blink-animation {

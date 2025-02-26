@@ -7,20 +7,24 @@
     <title>AI French Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
       <h1>AI French Poem Generator</h1>
     </header>
 
     <main>
         <form>
-          <input type="text" placeholder="Please, enter the topic of the French poem"
+          <input 
+          type="text" 
+          placeholder="Please, enter the topic of the French poem"
           autofocus
           required
           autocomplete="off"
+          class="instructions"
           />
-          <input type="submit" />
+          <input type="submit" class="submit-button" />
         </form>
-        <div>
+        <div class="poem">
             La tombe dit à la rose
             <br />
             Des pleurs dont l'aube t'arrose
@@ -33,7 +37,7 @@
         and is 
         <a href="https://generateur-de-poeme-project.netlify.app/" target="_blank">hosted on Netlify.</a>
     </footer>
-
+  </div>
     <script src="src/index.js"></script>
 </body>
 </html>

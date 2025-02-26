@@ -15,10 +15,11 @@
     </header>
 
     <main>
+        <div class="form-container">
         <form id="poem-generator-form">
           <input 
           type="text" 
-          placeholder="Please, enter the topic of the French poem"
+          placeholder="Please, enter the topic of a French poem"
           autofocus
           required
           autocomplete="off"
@@ -27,7 +28,9 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem"></div>
+        <div class="hint">i.e. Paris, Croissant, or Omelette au Fromage</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
     </main>
 
     <footer>This AI project was coded by 
